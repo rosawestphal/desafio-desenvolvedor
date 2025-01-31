@@ -1,0 +1,19 @@
+1. Configuração do Projeto Django
+Primeiro, você precisa criar um novo projeto Django e uma nova aplicação. Execute os seguintes comandos:
+Code
+django-admin start
+project arquivo_api
+cd arquivo_api
+django-admin startapp uploads
+
+2. Instalação de Dependências
+Certifique-se de que você tem o Django e o Django REST Framework instalados. 
+Você pode instalar usando o 
+pip:Codepip install django djangorestframework pandas openpyxl
+
+8. Migrar e Rodar o Servidor
+Agora, faça a migração e inicie o servidor:
+Code
+python manage.py makemigrations uploads
+python manage.py migrate
+python manage.py runserver
