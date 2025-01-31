@@ -100,3 +100,4 @@ def pesquisar_conteudo_arquivo(request):
     results_list = results_list[(int(page) - 1) * 10:int(page) * 10]
 
     return Response(results_list)
+
